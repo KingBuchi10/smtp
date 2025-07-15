@@ -1,4 +1,4 @@
-import MainPage from '@/components/HomePage'
+import MainPage from '@/components/homePage'
 import SideBar from '@/components/SideBar'
 import React from 'react'
 

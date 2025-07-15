@@ -1,4 +1,4 @@
-import { House, LogOut, Plus, SendIcon } from 'lucide-react'
+import { House, LogOut, Plus } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
