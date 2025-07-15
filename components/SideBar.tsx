@@ -8,7 +8,7 @@ function SideBar() {
       <div className='w-[260px] flex mt-[20px] ml-[20px]'>
         <Image src="/Assets/cko.png" alt='' width={58.33} height={23.33} />
         <div className='w-[52.98px] h-[24.59px] bg-black rounded-lg flex items-center justify-center ml-2'>
-          <div className='text-white'>smtp</div>
+          <div className='text-white'>SMTP</div>
         </div>
       </div>
 
