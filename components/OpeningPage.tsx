@@ -4,7 +4,7 @@ import ButtonConfig from './ButtonConfig'
 function OpeningPage() {
   return (
     <div className='bg-white h-screen w-full text-black'>
-      <div className='flex w-full h-[70px] border border-gray-300 items-center justify-between px-4'>
+      <div className='flex w-full h-[70px] border-b border-gray-300 items-center justify-between px-4'>
         Home
       </div>
 
