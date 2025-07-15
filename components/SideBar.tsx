@@ -4,7 +4,6 @@ import { House, LogOut, Plus } from 'lucide-react'
 import Image from 'next/image'
 import React, { useState } from 'react'
 import InputModal from './InputModal';
-import ButtonConfig from './ButtonConfig';
 import ButtonConfig2 from './ButtonConfig2';
 
 function SideBar() {
