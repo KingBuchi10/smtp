@@ -40,8 +40,8 @@ function SideBar() {
         </button>
       </div>
 
-      <Modal open={Open} onClose={handleClose} className='flex justify-end p-3'>
-        <div className='bg-white w-[500px] p-4'>
+      <Modal open={Open} onClose={handleClose} className='flex justify-end'>
+        <div className='bg-white w-[500px] px-[19.5px] rounded-lg'>
           <div className='text-black text-[15px] font-bold mt-[27.86px] mb-[40.05px] justify-center flex'>
             <div>Add New Entry</div>
           </div>
@@ -62,6 +62,14 @@ function SideBar() {
 
           <div>
             <div className='text-black'>2,200 Entries Found</div>
+          </div>
+
+          <div className='border border-gray-300 w-full h-30'></div>
+
+          <div className='flex mt-[19px] gap-[10px] items-center justify-center'>
+            <button className='w-[235px] h-[34px] bg-black rounded-lg'>Add Entries</button>
+            <button className='w-[235px] h-[34px] bg-red-500 rounded-lg'>Clear Enteries</button>
+
           </div>
         </div>
       </Modal>
