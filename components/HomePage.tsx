@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonConfig from './ButtonConfig'
 
 function MainPage() {
   return (
@@ -22,19 +23,71 @@ function MainPage() {
           </div>
         </div>
 
-        <div className=''>All Entries</div>
+        <div className='my-10'>All Entries</div>
 
-        <div className='flex flex-col-3 gap-5'>
+        <div className='grid grid-cols-3 gap-5'>
           <div className='w-[260px] h-[150px] bg-gray-100 rounded-lg flex flex-col p-4'>
-            dfsdsfds
+            <div className='w-18 h-6 bg-black rounded-full text-white text-[12px] items-center justify-center flex'>
+              test.com
+            </div>
+            <div className='flex mt-3 items-center gap-3'>
+              <div>Mark Wang</div>
+              <div className='w-10 h-6  rounded-full border border-gray-300 font-bold text-[10px] items-center justify-center flex'>CEO</div>
+            </div>
+            <div className='text-gray-400 text-[13px]'>info@test.com</div>
+
+            <div className='w-full flex gap-2 mt-3 items-center justify-between'>
+              <button className='w-30 rounded-lg h-6 border '>Edit</button>
+              <ButtonConfig title='Delete'/>
+            </div>
           </div>
 
-          <div className='w-[260px] h-[150px] bg-gray-100 rounded-lg flex flex-col'>
+           <div className='w-[260px] h-[150px] bg-gray-100 rounded-lg flex flex-col p-4'>
+            <div className='w-18 h-6 bg-black rounded-full text-white text-[12px] items-center justify-center flex'>
+              test.com
+            </div>
+            <div className='flex mt-3 items-center gap-3'>
+              <div>Mark Wang</div>
+              <div className='w-10 h-6  rounded-full border border-gray-300 font-bold text-[10px] items-center justify-center flex'>CEO</div>
+            </div>
+            <div className='text-gray-400 text-[13px]'>info@test.com</div>
 
+            <div className='w-full flex gap-2 mt-3 items-center justify-between'>
+              <button className='w-30 rounded-lg h-6 border '>Edit</button>
+              <ButtonConfig title='Delete'/>
+            </div>
           </div>
 
-          <div className='w-[260px] h-[150px] bg-gray-100 rounded-lg flex flex-col'>
+           <div className='w-[260px] h-[150px] bg-gray-100 rounded-lg flex flex-col p-4'>
+            <div className='w-18 h-6 bg-black rounded-full text-white text-[12px] items-center justify-center flex'>
+              test.com
+            </div>
+            <div className='flex mt-3 items-center gap-3'>
+              <div>Mark Wang</div>
+              <div className='w-10 h-6  rounded-full border border-gray-300 font-bold text-[10px] items-center justify-center flex'>CEO</div>
+            </div>
+            <div className='text-gray-400 text-[13px]'>info@test.com</div>
 
+            <div className='w-full flex gap-2 mt-3 items-center justify-between'>
+              <button className='w-30 rounded-lg h-6 border '>Edit</button>
+              <ButtonConfig title='Delete'/>
+            </div>
+          </div>
+
+           <div className='w-[260px] h-[150px] bg-gray-100 rounded-lg flex flex-col p-4'>
+            <div className='w-18 h-6 bg-black rounded-full text-white text-[12px] items-center justify-center flex'>
+              test.com
+            </div>
+            <div className='flex mt-3 items-center gap-3'>
+              <div>Mark Wang</div>
+              <div className='w-10 h-6  rounded-full border border-gray-300 font-bold text-[10px] items-center justify-center flex'>CEO</div>
+            </div>
+            <div className='text-gray-400 text-[13px]'>info@test.com</div>
+
+            <div className='w-full flex gap-2 mt-3 items-center justify-between'>
+              <button className='w-30 rounded-lg h-6 border '>Edit</button>
+              <ButtonConfig title='Delete'/>
+            </div>
           </div>
         </div>
 
