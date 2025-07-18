@@ -4,7 +4,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className='flex max-w-screen'>
+    <div className='flex max-w-[1400px] mx-auto min-h-screen'>
       <SideBar />
       <OpeningPage />
     </div>
