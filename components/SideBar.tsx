@@ -1,6 +1,6 @@
 "use client";
 import { Modal } from '@mui/material';
-import { HomeIcon, House, LogOut, LogOutIcon, LucideProps, Plus, PlusIcon } from 'lucide-react'
+import {  House, LogOut, Plus } from 'lucide-react'
 import Image from 'next/image'
 import React, { useState } from 'react'
 import InputModal from './InputModal';
