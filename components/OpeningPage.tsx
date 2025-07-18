@@ -30,7 +30,7 @@ function OpeningPage() {
           </div>
           <div className='my-10 flex justify-between items-center w-full'>
             <div>All Entries</div>
-            <button className='lg:hidden w-20 h-8 bg-black rounded-lg text-white text-center flex items-center justify-center text-[15px]'>Add Entry</button>
+            <button className='md:hidden w-20 h-8 bg-black rounded-lg text-white text-center flex items-center justify-center text-[15px]'>Add Entry</button>
           </div>
 
           <div className='justify-center relative grid lg:grid-cols-3 gap-5 md:grid-cols-2 grid-col'>
